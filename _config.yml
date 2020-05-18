@@ -1,49 +1,11 @@
-locale: "en-US"
-title: 서지형 블로그 # Title of your site
-url: "https://jhseo.io" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
-google_analytics_key: ""
+plugins:
+  - jekyll-paginate
 
-# Default description in social shares for the jekyll-seo-tag gem
-description: > # this means to ignore newlines until "baseurl:"
-    서지형 개인 블로그
+title: Sweet 16
+description:
+    <a href="https://wordpress.org/themes/twentysixteen/" rel="external">Wordpress 2016 theme</a>
+    in <a href="https://jekyllrb.com/" rel="external">Jekyll</a>
 
-# Author details for the jekyll-seo-tag gem
-author:
-  name: JiHyeong Seo 
-  email: jee0645@gmail.com
-
-# Social details for the jekyll-seo-tag gem
-social:
-  name: JiHyeong Seo 
-  links:
-    - https://www.facebook.com/jee0645  
-
-permalink: pretty
-
-gems:
-  - "jekyll-feed"
-  - "jekyll-seo-tag"
-  - "jekyll-paginate"
-  - "jekyll-sitemap"
-
-# Jekyll SEO Tag
-webmaster_verifications:
-  google: # 1234
-  bing: # 1234
-  alexa: # 1234
-  yandex: # 1234
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+paginate: 10
+paginate_path: /page/:num/
+permalink: /:title/

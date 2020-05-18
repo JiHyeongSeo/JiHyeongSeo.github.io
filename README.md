@@ -1,58 +1,28 @@
-# Strata Reloaded
+Sweet 16
+========
+[Wordpress 2016 theme][2016] revives in Jekyll.
 
-Simple, clean personal blogging template for Jekyll based on Strata by HTML5 UP.
+This theme is for those who like the visual design of Wordpress but otherwise
+want a static site.
 
-![Strata Reloaded template screenshot](images/_screenshot.png)
+This theme is a reaction to content injection vulnerability in Wordpress 4.7.
+I've always liked the design of Wordpress default themes.  Wordpress is also
+good for muggles but too complex for me.  I've never thought that such
+complexity would cause problem until a random French guy injected a spam
+article.
 
-## Features
+Customization
+-------------
+Customization is welcome since developers' and writers' files are somewhat
+separated.  The only underscored paths writers touch are `_data` and `_posts`.
 
-* Parallax background effect
-* Lightbox gallery
-* Pre-styled components
-* Blog with pagination
-* Configurable footer
-* Optimized for editing in [CloudCannon](http://cloudcannon.com/)
-* RSS/Atom feed
-* SEO tags
-* Google Analytics
-* Webmaster Verification
+Differences from [2016, the reference theme][2016] are considered bugs although
+some of them are impossible to fix due to the nature of Jekyll.  Bravely file
+bugs or make pull requests to make this theme more close to the reference
+theme.
 
-## Develop
+License
+-------
+GPL because this theme is a derivative from Wordpress.
 
-1. Add your site and author details in `_config.yml`.
-2. Add your Google Analytics key to `_config.yml`.
-3. Get a workflow going to see your site's output (with [CloudCannon](https://app.cloudcannon.com/) or Jekyll locally).
-
-## Develop
-
-Urban was built with [Jekyll](http://jekyllrb.com/) version 3.3.1, but should support newer versions as well.
-
-Install the dependencies with [Bundler](http://bundler.io/):
-
-~~~bash
-$ bundle install
-~~~
-
-Run `jekyll` commands through Bundler to ensure you're using the right versions:
-
-~~~bash
-$ bundle exec jekyll serve
-~~~
-
-## Editing
-
-Strata Reloaded is already optimized for adding, updating and removing posts and footer elements in [CloudCannon](https://app.cloudcannon.com/).
-
-### Posts
-
-* Add, update or remove a post in the *Posts* collection.
-* Change the defaults when new posts are created in `_posts/_defaults.md`.
-
-### Footer
-
-* Exposed as a data file to give clients better access.
-* Set in the *Data* / *Footer* section.
-
-## License
-
-Free for personal and commercial use under the CCA 3.0 license. See LICENSE file for additional information and terms of use. This theme was adapted from Strata by HTML5 UP for use with [CloudCannon](http://cloudcannon.com) by [Comfusion LLC](http://comfusionllc.com).
+[2016]: https://wordpress.org/themes/twentysixteen/
