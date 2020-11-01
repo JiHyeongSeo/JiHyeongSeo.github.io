@@ -1,1 +1,3 @@
-vendors
+vendor
+*.gem
+.jekyll-cache
