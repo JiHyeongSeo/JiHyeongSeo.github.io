@@ -8,19 +8,20 @@ layout: default
         <img src="{{site.baseurl}}/images/{% if site.author-image %}{{site.author-image}}{% endif %}" alt="{{site.author-name}}">
       </a>
     </div>
-    <div class="c-author__info">
+    <div class="c-author__info">      
       <div class="c-author__name">{{site.author-name}}</div>
       <span class="c-author__job">Web Back-end Developer</span></br>
       <span class="c-author__job">Data engineer</span></br>
       <span class="c-author__job">AWS Cloud Engineer</span></br>
+      
     </div>
-    <div class="c-contact-menu">
+    <!-- <div class="c-contact-menu">
       {% if site.author-email %}
       <a href="/contact" class="c-contact-btn c-btn c-btn--secondary c-btn--round c-btn--shadow"><span data-icon='ei-envelope' data-size='s'></span> Send me</a>
       {% else %}
       {% endif %}
       
-    </div>
+    </div> -->
     <p class="c-author__about">{{site.about-author | strip_html | truncatewords: 50}}</p>
   </div>
 
@@ -64,6 +65,7 @@ layout: default
     </div>
     <div class="c-copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author-name}}</p>
+      <p>Contact: jee0645@gmail.com</p>
     </div>
   </div>
 </aside> <!-- /.c-sidebar -->
