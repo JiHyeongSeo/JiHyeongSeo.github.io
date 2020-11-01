@@ -1,7 +1,7 @@
 title: jhseo.io
 description: jhseo.io
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "jhseo.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jhseo.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author
 author-name:    JiHyeong Seo
